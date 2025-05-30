@@ -14,6 +14,7 @@ h2 {
   font-family: "amandine", sans-serif;
   font-weight: 500;
   font-style: italic;
+  line-height: 3rem;
 }
 
 
@@ -41,6 +42,12 @@ p {
   display: flex;
   width: 100vw;
   height: 100vh;
+  align-items: center;
+  /* zarovná oba bloky vertikálně doprostřed */
+  justify-content: center;
+  /* vystředí obsah horizontálně, pokud je menší */
+  gap: 2rem;
+  /* mezera mezi obrázkem a textem */
 }
 
 .mock__up2 {
@@ -49,20 +56,28 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   width: 50vw;
-  height: 100%;
+  height: 80vh;
+  /* nebo auto; pokud chceš přizpůsobit výšce textu */
 }
 
 .text_about {
   background-color: rgba(244, 241, 240, 1);
-  width: 50vw;
-  padding: 2rem;
+  border: 2px solid rgba(120, 104, 95, 1);
+  padding: 1.5rem;
+  max-width: 500px;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
+
 
 .function {
   padding: 1.5rem 2rem;
+  margin-top: 2;
+  margin-bottom: 3rem;
 }
 
 .about__section {
@@ -77,10 +92,11 @@ p {
 .about__us {
   color: white;
   width: 70vw;
-  padding: 2rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-bottom: 3rem;
 
 }
 
@@ -100,6 +116,27 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 1rem;
+  border-radius: 1rem 0 1rem 0;
 
+}
+
+footer {
+  background-color: rgba(62, 52, 47, 1);
+  padding: 0.6rem 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.email-button {
+  background-color: rgba(244, 241, 240, 1);
+  color: rgba(62, 52, 47, 1);
+  border: none;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: "amandine", sans-serif;
+  font-size: 0.8rem;
 }
