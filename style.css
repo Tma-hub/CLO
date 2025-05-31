@@ -18,6 +18,13 @@ h2 {
   line-height: 3rem;
 }
 
+h3 {
+  font-family: "amandine", sans-serif;
+  font-weight: 350;
+  font-style: italic;
+  color: rgba(120, 104, 95, 1);
+}
+
 p {
   font-family: "amandine", sans-serif;
   color: rgba(120, 104, 95, 1);
@@ -133,7 +140,23 @@ footer {
   font-size: 0.8rem;
 }
 
-/* RESPONSIVE - mobile devices */
+.linky {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "amandine", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  margin-bottom: 2vh;
+}
+
+.linky a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+
+/* RESPONZIVITA */
 
 @media (max-width: 768px) {
   .subheading {
@@ -225,4 +248,100 @@ footer {
     width: 45vw;
     height: 100%;
   }
+}
+
+/*  Další HTML */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#paja,
+#tereza {
+  background-color: rgb(218, 207, 203);
+}
+
+.home_btn {
+  position: relative;
+}
+
+.home_btn button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-color: rgba(120, 104, 95, 1);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_wrapper {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.foto_paja {
+  width: 15vw;
+  height: 40vh;
+  background-image: url('paja.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem 0 1rem 0;
+  flex-shrink: 0;
+}
+
+.foto_tereza {
+  width: 15vw;
+  height: 40vh;
+  background-image: url('tereza.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem 0 1rem 0;
+  flex-shrink: 0;
+}
+
+.text_section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.jmeno {
+  padding: 1rem 0 0 0;
+}
+
+.o__mne {
+  padding: 1rem 0;
+}
+
+.omne__text {
+  margin-top: 1rem;
+}
+
+.discord_container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.discord_btn {
+  width: 48px;
+  height: 48px;
+  background-image: url('discord.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
 }
