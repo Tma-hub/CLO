@@ -31,6 +31,7 @@ p {
   font-weight: 200;
   font-style: normal;
   margin-bottom: 1vh;
+  line-height: 1.5;
 }
 
 .mock__up {
@@ -331,8 +332,7 @@ body {
 
 .discord_container {
   display: flex;
-  justify-content: flex-start;
-  padding: 0;
+  justify-content: start;
 }
 
 .discord_btn {
