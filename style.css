@@ -296,6 +296,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 1rem 0 1rem 0;
   flex-shrink: 0;
+  border: 1px solid rgba(62, 52, 47, 1);
 }
 
 .foto_tereza {
@@ -307,6 +308,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 1rem 0 1rem 0;
   flex-shrink: 0;
+  border: 1px solid rgba(62, 52, 47, 1);
 }
 
 .text_section {
