@@ -13,26 +13,27 @@ h1 {
 
 h2 {
   font-family: "amandine", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: italic;
   line-height: 3rem;
 }
 
 h3 {
   font-family: "amandine", sans-serif;
-  font-weight: 350;
-  font-style: italic;
+  font-weight: 400;
+  font-style: normal;
   color: rgba(120, 104, 95, 1);
 }
 
 p {
   font-family: "amandine", sans-serif;
   color: rgba(120, 104, 95, 1);
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   margin-bottom: 1vh;
   line-height: 1.5;
 }
+
 
 .mock__up {
   background-image: url('mock__up.png');
