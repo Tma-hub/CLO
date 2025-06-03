@@ -34,6 +34,23 @@ p {
   line-height: 1.5;
 }
 
+li {
+  font-family: "amandine", sans-serif;
+  color: rgba(120, 104, 95, 1);
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1vh;
+  line-height: 1.5;
+}
+
+ul {
+  font-family: "amandine", sans-serif;
+  color: rgba(120, 104, 95, 1);
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1vh;
+  line-height: 1.5;
+}
 
 .mock__up {
   background-image: url('mock__up.png');
